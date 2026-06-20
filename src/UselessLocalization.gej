@@ -1,0 +1,126 @@
+{
+	"name": "Useless Localization",
+	"folder": "",
+	"version": "0.1",
+	"author": "DFelipehDEV",
+	"date": "22/02/2026",
+	"license": "MIT",
+	"description": "",
+	"helpfile": "",
+	"hidden": false,
+	"dependencies": [],
+	"files": [
+		{
+			"filename": "UselessLocalization.dll",
+			"origname": "UselessLocalization.dll",
+			"kind": 1,
+			"init": "",
+			"final": "",
+			"functions": [
+				{
+					"name": "local_get_version",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "local_get_version()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "local_get_locale",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "local_get_locale()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 1
+				},
+				{
+					"name": "local_set_locale",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "local_set_locale(language)",
+					"hidden": false,
+					"argtypes": [
+						1
+					],
+					"returntype": 2
+				},
+				{
+					"name": "local_set_fallback",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "local_set_fallback(language)",
+					"hidden": false,
+					"argtypes": [
+						1
+					],
+					"returntype": 2
+				},
+				{
+					"name": "local_clear",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "local_clear()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "local_set",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "local_set(key, value)",
+					"hidden": false,
+					"argtypes": [
+						1,
+						1
+					],
+					"returntype": 2
+				},
+				{
+					"name": "t__",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "t__(key)",
+					"hidden": false,
+					"argtypes": [
+						1
+					],
+					"returntype": 1
+				}
+			],
+			"constants": []
+		},
+		{
+			"filename": "api.gml",
+			"origname": "api.gml",
+			"kind": 2,
+			"init": "",
+			"final": "",
+			"functions": [
+				{
+					"name": "local_add_from_file",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "local_add_from_file(filepath)",
+					"hidden": false,
+					"argtypes": [
+						1
+					],
+					"returntype": 2
+				},
+				{
+					"name": "t_",
+					"extname": "",
+					"calltype": 12,
+					"helpline": "t_(key, ...)",
+					"hidden": false,
+					"argtypes": null,
+					"returntype": 1
+				}
+			],
+			"constants": []
+		}
+	]
+}
