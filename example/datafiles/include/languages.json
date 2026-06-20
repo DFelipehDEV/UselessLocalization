@@ -1,0 +1,20 @@
+{
+    "en": {
+        "menu": {
+            "play": "Play",
+            "quit": "Quit"
+        },
+        "dialog": {
+            "hello": "Hello {0}, welcome to {1}!"
+        }
+    },
+    "es": {
+        "menu": {
+            "play": "Jugar",
+            "quit": "Salir"
+        },
+        "dialog": {
+            "hello": "¡Hola {0}, bienvenido a {1}!"
+        }
+    }
+}

@@ -3,12 +3,14 @@
 	"folder": "",
 	"version": "0.1",
 	"author": "DFelipehDEV",
-	"date": "22/02/2026",
+	"date": "20/06/2026",
 	"license": "MIT",
 	"description": "",
 	"helpfile": "",
 	"hidden": false,
-	"dependencies": [],
+	"dependencies": [
+		"Useless JSON"
+	],
 	"files": [
 		{
 			"filename": "UselessLocalization.dll",
