@@ -1,5 +1,5 @@
-#define local_add_from_file
-/// local_add_from_file(file)
+#define local_add_from_json
+/// local_add_from_json(file)
 var _file, _json;
 _file = argument0;
 _json = json_load_file(_file);

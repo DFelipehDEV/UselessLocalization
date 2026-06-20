@@ -100,10 +100,10 @@
 			"final": "",
 			"functions": [
 				{
-					"name": "local_add_from_file",
+					"name": "local_add_from_json",
 					"extname": "",
 					"calltype": 12,
-					"helpline": "local_add_from_file(filepath)",
+					"helpline": "local_add_from_json(filepath)",
 					"hidden": false,
 					"argtypes": [
 						1
